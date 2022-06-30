@@ -26,7 +26,7 @@ new_image_data_two = []
 for item in datas:   
     # change all background to white and keep all white
     if item == (255, 0, 0):
-        print(item)
+        
         new_image_data_two.append((0, 0, 0))
     else:
         # change non-background and non-white to black
